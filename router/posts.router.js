@@ -1,6 +1,6 @@
 const postsRouter = require('express').Router();
 
-postsRouter.get('/', (req, res) => {
+postsRouter.get('/api/posts', (req, res) => {
   res.status(200).json({
     message: "posts routerだよ"
   });
